@@ -1,5 +1,7 @@
 FROM mhart/alpine-node:6.5.0
 
+MAINTAINER Davide Zeri <zeridavide@gmail.com>
+
 WORKDIR /usr/src
 
 RUN apk update && apk upgrade && \
