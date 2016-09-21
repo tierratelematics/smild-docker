@@ -8,7 +8,7 @@ Have a complete development environment using only docker.
 To run the container:
 
 ```sh
-$ docker run --privileged --rm -it -p "yourport:yourport"  -v "your path:/usr/src" iot-frontend-launcher:latest /bin/bash
+$ docker run --privileged --rm -it -p "yourport:yourport"  -v "your path:/usr/src" smild-launcher:latest /bin/bash
 ```
 
 after that:
