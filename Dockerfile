@@ -1,11 +1,10 @@
-FROM mhart/alpine-node:6.5.0
+FROM node:6.7.0-slim
 
 MAINTAINER Davide Zeri <zeridavide@gmail.com>
 
 WORKDIR /usr/src
 
-RUN apk update && apk upgrade && \
-    apk add --no-cache git openssh build-base libstdc++ python && \
+RUN apt-get update && apt-get install -y git && \
     npm i -g ts-node && \
     npm i -g typings && \
     npm i -g typescript && \
