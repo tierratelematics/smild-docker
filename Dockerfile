@@ -8,4 +8,6 @@ RUN apt-get update && apt-get install -y git && \
     npm i -g ts-node && \
     npm i -g typings && \
     npm i -g typescript && \
-    npm install smild@3.2.3 -g
+    npm i -g mocha && \
+    npm i -g ts-node && \
+    npm i -g smild@3.2.3
