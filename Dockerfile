@@ -1,4 +1,4 @@
-FROM node:6.7.0-slim
+FROM node:6.8.0-slim
 
 MAINTAINER Davide Zeri <zeridavide@gmail.com>
 
